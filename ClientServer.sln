@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APi", "APi\APi.csproj", "{70EE9239-300E-4824-9035-2533B83A036E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client", "..\..\punya hanif\ClientServer-MCC75-main\ClientServer-MCC75-main\Client\Client.csproj", "{40379021-E105-4C99-A302-39A3D82FFDA9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70EE9239-300E-4824-9035-2533B83A036E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70EE9239-300E-4824-9035-2533B83A036E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70EE9239-300E-4824-9035-2533B83A036E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70EE9239-300E-4824-9035-2533B83A036E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40379021-E105-4C99-A302-39A3D82FFDA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40379021-E105-4C99-A302-39A3D82FFDA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40379021-E105-4C99-A302-39A3D82FFDA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40379021-E105-4C99-A302-39A3D82FFDA9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C8FF85A-CC79-4B31-8509-A50AFB4475A3}
+	EndGlobalSection
+EndGlobal
