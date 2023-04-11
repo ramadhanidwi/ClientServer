@@ -1,0 +1,256 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "_AdminLayout";
+}
+<div class="header">
+    <h1>List Employee</h1>
+</div>
+
+<div id="add">
+</div>
+
+<table id="tableEmpl" class="table table-hover tableprogress-bar-striped ">
+    <thead class="table-dark align-content-center">
+        <tr>
+            <th>No</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Gender</th>
+            <th>Email</th>
+            <th>Phone Number</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody id="tbodyMovie" class="text-white fw-bold bg-dark">
+        <!-- Isi Body -->
+    </tbody>
+
+</table>
+
+
+<!-- Modal -->
+@*<div class="modal fade" id="modalMovie" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Details Movie</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+@*            <div class="img-container">
+                <center>
+                    <img id="update_img" src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/newscms/2020_47/3429955/201120-hollywood-sign-ew-1123a.jpg" style="width:250px;height:250px" alt="" srcset="">
+                </center>
+            </div>
+            <div class="detail-container">
+                <div class="title-container">
+                    <h3 class="name text-center" id="update_title">Test</h3>
+                    <hr class="seperator">
+                </div>
+                <div class="player-data">
+                    <div class="col data-container" style="text-align: center">
+                        <small class="muted-text">Year</small>
+                        <p class="muted-text" id="update_year">2023</p>
+                    </div>
+                </div>
+            </div>*@
+
+@* <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>*@
+
+<!-- Modal Create-->
+@*<div class="modal fade" id="modalEmpl" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Create</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form id="formCreate">
+                <div class="form-grup">
+                    <label for="id">NIK :</label>
+                    <input type="number" id="nik" name="nik" />
+                </div>
+                <div class="form-group">
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="fname" /><br>
+                </div>
+                <div class="form-group">
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lname" /><br>
+                </div>
+                <div class="form-grup">
+                    <label for="birthDate">Birth Date:</label>
+                    <input type="datetime-local" id="birthDate" name="birthDate" /><br>
+                </div>
+                <div class="form-grup">
+                    <label for="gender">Gender:</label>
+                    <input type="number" id="gender" name="gender" /><br>
+                </div>
+                <div class="form-grup">
+                    <label for="hiringDate">Hiring Date:</label>
+                    <input type="datetime-local" id="hiringDate" name="hiringDate" /><br>
+                </div>
+                <div class="form-grup">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" /><br>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="text" id="phone" name="phone" /><br>
+                </div>
+                <div class="form-grup">
+                    <label for="managerId">Manager Id:</label>
+                    <input type="number" id="managerId" name="managerId" /><br>
+                </div>
+            </form>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal" id="submit">Submit</button>
+            </div>
+        </div>
+    </div>
+</div>*@
+
+<!-- Modal Detail-->
+<div class="modal fade" id="modalDetail" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Details Movie</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="img-container">
+                <center>
+                    <img id="update_img" src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/newscms/2020_47/3429955/201120-hollywood-sign-ew-1123a.jpg" style="width:250px;height:250px" alt="" srcset="">
+                </center>
+            </div>
+
+            <div class="detail-container">
+                <div class="title-container">
+                    <h3 class="name text-center" id="update_title">Test</h3>
+                    <hr class="seperator">
+                </div>
+
+                <div class="player-data">
+                    <div class="col data-container" style="text-align: center">
+                        <small class="muted-text">Year</small>
+                        <p class="muted-text" id="update_year">2023</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Modal Create Advance-->
+<div class="modal fade" id="modalEmpl" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content col-sm-25" id="modalContent">
+            <div class="form-body">
+                <div class="row">
+                    <div class="form-holder">
+                        <div class="form-content" id="formContent">
+                            <div class="form-items" id="formItems" style="background-color: #152733">
+                                <h3 id="exampleModalLabel">Input Dari Ajax</h3>
+                                <p>Fill in the data below.</p>
+                                <form class="requires-validation" novalidate>
+
+                                    <div class="col-md-12">
+                                        <input id="nik" class="form-control" type="number" name="nik" placeholder="NIK" required>
+                                        <div class="valid-feedback">NIK field is valid!</div>
+                                        <div class="invalid-feedback">NIK field cannot be blank!</div>
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <input id="fname" class="form-control" type="text" name="name" placeholder="First Name" required>
+                                        <div class="valid-feedback">First Name field is valid!</div>
+                                        <div class="invalid-feedback">First Name field cannot be blank!</div>
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <input id="lname" class="form-control" type="text" name="name" placeholder="Last Name">
+                                    </div>
+
+                                    <div class="col-md-12 mt-3">
+                                        <label for="birthDate">Birth Date :</label>
+                                        <input id="birthDate" class="form-control" type="datetime-local" name="birthDate" placeholder="Birth Date" required>
+                                        <div class="valid-feedback">Birth Date field is valid!</div>
+                                        <div class="invalid-feedback">Birth Date field cannot be blank!</div>
+                                    </div>
+
+                                    <div class="col-md-12 mt-3">
+                                        <select class="form-select mt-3" required>
+                                            <option selected disabled value="">Gender</option>
+                                            <option value="0">Male</option>
+                                            <option value="1">Female</option>
+                                        </select>
+                                        <div class="valid-feedback">You selected a Gender!</div>
+                                        <div class="invalid-feedback">Please select a Gender!</div>
+                                    </div>
+
+                                    <div class="col-md-12 mt-3">
+                                        <label for="hiringDate">Hiring Date :</label>
+                                        <input id="hiringDate" class="form-control" type="datetime-local" name="hiringDate" placeholder="Hiring Date" required>
+                                        <div class="valid-feedback">Hiring Date field is valid!</div>
+                                        <div class="invalid-feedback">Hiring Date field cannot be blank!</div>
+                                    </div>
+
+                                    <div class="col-md-12 mt-3">
+                                        <input id="email" class="form-control" type="email" name="email" placeholder="E-mail Address" required>
+                                        <div class="valid-feedback">Email field is valid!</div>
+                                        <div class="invalid-feedback">Email field cannot be blank!</div>
+                                    </div>
+
+                                    <div class="col-md-12 mt-3">
+                                        <input id="phone" class="form-control" type="number" name="phone" placeholder="Phone Number" required>
+                                        <div class="valid-feedback">Phone Number field is valid!</div>
+                                        <div class="invalid-feedback">Phone Number field cannot be blank!</div>
+                                    </div>
+
+                                    <div class="col-md-12 mt-3">
+                                        <input id="managerId" class="form-control" type="number" name="managerId" placeholder="Manager Id">
+                                    </div>
+
+                                    <div class="form-check mt-3">
+                                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                        <label class="form-check-label">I confirm that all data are correct</label>
+                                        <div class="invalid-feedback">Please confirm that the entered data are all correct!</div>
+                                    </div>
+
+
+                                    <div class="form-button mt-3">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button id="submit" type="submit" class="btn btn-primary">Register</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </div>
+    </div>
+@*    <div class="modal-footer">
+
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal" id="submit">Submit</button>
+    </div>*@
+</div>
+
+@section Scripts{
+    <script src="~/js/ajax.js" asp-append-version="true"></script>
+}
+
+

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\KERJA\\MCC\\Pemrograman\\Segmen 2\\day 6\\ClientServer\\Client\\Client.csproj": {}
+    "D:\\KERJA\\MCC\\Pemrograman\\Segmen 2\\punya hanif\\ClientServer-MCC75-main\\ClientServer-MCC75-main\\Client\\Client.csproj": {}
   },
   "projects": {
-    "D:\\KERJA\\MCC\\Pemrograman\\Segmen 2\\day 6\\ClientServer\\Client\\Client.csproj": {
+    "D:\\KERJA\\MCC\\Pemrograman\\Segmen 2\\punya hanif\\ClientServer-MCC75-main\\ClientServer-MCC75-main\\Client\\Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\KERJA\\MCC\\Pemrograman\\Segmen 2\\day 6\\ClientServer\\Client\\Client.csproj",
+        "projectUniqueName": "D:\\KERJA\\MCC\\Pemrograman\\Segmen 2\\punya hanif\\ClientServer-MCC75-main\\ClientServer-MCC75-main\\Client\\Client.csproj",
         "projectName": "Client",
-        "projectPath": "D:\\KERJA\\MCC\\Pemrograman\\Segmen 2\\day 6\\ClientServer\\Client\\Client.csproj",
+        "projectPath": "D:\\KERJA\\MCC\\Pemrograman\\Segmen 2\\punya hanif\\ClientServer-MCC75-main\\ClientServer-MCC75-main\\Client\\Client.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "D:\\KERJA\\MCC\\Pemrograman\\Segmen 2\\day 6\\ClientServer\\Client\\obj\\",
+        "outputPath": "D:\\KERJA\\MCC\\Pemrograman\\Segmen 2\\punya hanif\\ClientServer-MCC75-main\\ClientServer-MCC75-main\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,16 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.14, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

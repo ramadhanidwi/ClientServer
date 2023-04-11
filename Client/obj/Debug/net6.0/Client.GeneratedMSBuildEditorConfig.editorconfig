@@ -9,37 +9,73 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Client
 build_property.RootNamespace = Client
-build_property.ProjectDir = D:\KERJA\MCC\Pemrograman\Segmen 2\day 6\ClientServer\Client\
+build_property.ProjectDir = D:\KERJA\MCC\Pemrograman\Segmen 2\punya hanif\ClientServer-MCC75-main\ClientServer-MCC75-main\Client\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\KERJA\MCC\Pemrograman\Segmen 2\day 6\ClientServer\Client
+build_property.MSBuildProjectDirectory = D:\KERJA\MCC\Pemrograman\Segmen 2\punya hanif\ClientServer-MCC75-main\ClientServer-MCC75-main\Client
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/KERJA/MCC/Pemrograman/Segmen 2/day 6/ClientServer/Client/Views/Home/Index.cshtml]
+[D:/KERJA/MCC/Pemrograman/Segmen 2/punya hanif/ClientServer-MCC75-main/ClientServer-MCC75-main/Client/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/KERJA/MCC/Pemrograman/Segmen 2/punya hanif/ClientServer-MCC75-main/ClientServer-MCC75-main/Client/Views/Client/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/KERJA/MCC/Pemrograman/Segmen 2/punya hanif/ClientServer-MCC75-main/ClientServer-MCC75-main/Client/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KERJA/MCC/Pemrograman/Segmen 2/day 6/ClientServer/Client/Views/Home/Privacy.cshtml]
+[D:/KERJA/MCC/Pemrograman/Segmen 2/punya hanif/ClientServer-MCC75-main/ClientServer-MCC75-main/Client/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KERJA/MCC/Pemrograman/Segmen 2/day 6/ClientServer/Client/Views/Shared/Error.cshtml]
+[D:/KERJA/MCC/Pemrograman/Segmen 2/punya hanif/ClientServer-MCC75-main/ClientServer-MCC75-main/Client/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KERJA/MCC/Pemrograman/Segmen 2/day 6/ClientServer/Client/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/KERJA/MCC/Pemrograman/Segmen 2/punya hanif/ClientServer-MCC75-main/ClientServer-MCC75-main/Client/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KERJA/MCC/Pemrograman/Segmen 2/day 6/ClientServer/Client/Views/_ViewImports.cshtml]
+[D:/KERJA/MCC/Pemrograman/Segmen 2/punya hanif/ClientServer-MCC75-main/ClientServer-MCC75-main/Client/Views/TestCors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdENvcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/KERJA/MCC/Pemrograman/Segmen 2/punya hanif/ClientServer-MCC75-main/ClientServer-MCC75-main/Client/Views/Universities/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVW5pdmVyc2l0aWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/KERJA/MCC/Pemrograman/Segmen 2/punya hanif/ClientServer-MCC75-main/ClientServer-MCC75-main/Client/Views/Universities/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVW5pdmVyc2l0aWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/KERJA/MCC/Pemrograman/Segmen 2/punya hanif/ClientServer-MCC75-main/ClientServer-MCC75-main/Client/Views/Universities/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVW5pdmVyc2l0aWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/KERJA/MCC/Pemrograman/Segmen 2/punya hanif/ClientServer-MCC75-main/ClientServer-MCC75-main/Client/Views/Universities/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVW5pdmVyc2l0aWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/KERJA/MCC/Pemrograman/Segmen 2/punya hanif/ClientServer-MCC75-main/ClientServer-MCC75-main/Client/Views/Universities/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVW5pdmVyc2l0aWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/KERJA/MCC/Pemrograman/Segmen 2/punya hanif/ClientServer-MCC75-main/ClientServer-MCC75-main/Client/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KERJA/MCC/Pemrograman/Segmen 2/day 6/ClientServer/Client/Views/_ViewStart.cshtml]
+[D:/KERJA/MCC/Pemrograman/Segmen 2/punya hanif/ClientServer-MCC75-main/ClientServer-MCC75-main/Client/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KERJA/MCC/Pemrograman/Segmen 2/day 6/ClientServer/Client/Views/Shared/_Layout.cshtml]
+[D:/KERJA/MCC/Pemrograman/Segmen 2/punya hanif/ClientServer-MCC75-main/ClientServer-MCC75-main/Client/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-2fko1d0ly4
+
+[D:/KERJA/MCC/Pemrograman/Segmen 2/punya hanif/ClientServer-MCC75-main/ClientServer-MCC75-main/Client/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-j41ub9gw8f
